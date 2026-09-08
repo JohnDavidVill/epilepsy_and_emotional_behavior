@@ -246,6 +246,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3663,6 +3885,12 @@
 		(uuid "0f22151c-f260-4674-b486-4710a2c42a55")
 	)
 	(junction
+		(at 198.12 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1767ba11-527f-42ae-9dcd-d43007298d4d")
+	)
+	(junction
 		(at 76.2 43.18)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3675,10 +3903,40 @@
 		(uuid "1831fb37-1c5d-42c4-b898-151be6fca9dc")
 	)
 	(junction
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3402a3b6-44b1-436f-9f3d-2f648fee656d")
+	)
+	(junction
 		(at 101.6 165.1)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "3cd1bda0-18db-417d-b581-a0c50623df68")
+	)
+	(junction
+		(at 242.57 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51ad4df8-98cd-442d-9235-9ad0a98853f4")
+	)
+	(junction
+		(at 242.57 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55f56bf1-75fd-43f9-bb13-01074dbb88b6")
+	)
+	(junction
+		(at 242.57 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aceaae7-327c-4507-ad39-0b6287f8c1c3")
+	)
+	(junction
+		(at 198.12 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec1c9ea-cb5f-414c-b7d0-f60d2e4e037b")
 	)
 	(junction
 		(at 58.42 76.2)
@@ -3705,13 +3963,19 @@
 		(uuid "81f12b4d-e006-4ec6-86fc-70b77326afac")
 	)
 	(junction
+		(at 53.34 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d386039-2e1b-4b9c-9fb7-488a75f11bbb")
+	)
+	(junction
 		(at 76.2 68.58)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
 	)
 	(junction
-		(at 148.59 68.58)
+		(at 133.35 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9394e6a0-b629-4f61-a7fb-5ad37ccb9800")
@@ -3721,6 +3985,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1badaef-093e-4c71-abf3-ea8351dc1b43")
+	)
+	(junction
+		(at 125.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9779986-66a0-4bf2-9460-19a9ac1ff817")
+	)
+	(junction
+		(at 242.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a9b364-3ac6-446d-adf7-9174a71154dc")
 	)
 	(junction
 		(at 76.2 63.5)
@@ -3741,16 +4017,22 @@
 		(uuid "d57dcfee-5058-4fc2-a68b-05f9a48f685b")
 	)
 	(junction
+		(at 53.34 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7900678-df42-44c7-aea9-cb3e32c24e54")
+	)
+	(junction
+		(at 125.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d97c625f-1c51-4da0-bb58-81b25eddc52f")
+	)
+	(junction
 		(at 55.88 27.94)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "fd470e95-4861-44fe-b1e4-6d8a7c66e144")
-	)
-	(junction
-		(at 148.59 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe229ccd-55e3-4989-a899-e99d773bd93e")
 	)
 	(junction
 		(at 93.98 165.1)
@@ -3769,6 +4051,26 @@
 	(no_connect
 		(at 71.12 180.34)
 		(uuid "00f1806c-4158-494e-882b-c5ac9b7a930c")
+	)
+	(wire
+		(pts
+			(xy 220.98 96.52) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00abc181-76a8-4b84-805b-da2eb13ef957")
+	)
+	(wire
+		(pts
+			(xy 242.57 66.04) (xy 242.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f53bb9-7696-4b11-8a64-7de6c96fa539")
 	)
 	(wire
 		(pts
@@ -3832,6 +4134,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 121.92) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083e3712-307d-425c-9659-2dbb69b4f3c1")
+	)
+	(wire
+		(pts
+			(xy 113.03 26.67) (xy 118.11 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4c74ff-807b-4c22-a734-4c4db85bc7e0")
+	)
+	(wire
+		(pts
 			(xy 76.2 33.02) (xy 76.2 43.18)
 		)
 		(stroke
@@ -3842,13 +4164,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 158.75 77.47)
+			(xy 220.98 93.98) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d93f691-4601-46f0-8dca-8980951d9797")
+		(uuid "0d6e0aa1-493d-4050-b3c1-2e4a15a19c4b")
+	)
+	(wire
+		(pts
+			(xy 125.73 123.19) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5b62a6-933f-4354-b748-501c82ac06ab")
 	)
 	(wire
 		(pts
@@ -3872,6 +4204,36 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 24.13) (xy 254 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e0f7e5-eaf5-4256-b7a5-d737d49de816")
+	)
+	(wire
+		(pts
+			(xy 242.57 43.18) (xy 242.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f9d2bd-aebd-4703-8b48-73e6a686575c")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f6204d-0915-43d2-875f-8e4bd260871b")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 76.2 63.5)
 		)
 		(stroke
@@ -3892,6 +4254,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280748e3-da52-4ad0-b15a-02882d818d73")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 58.42 58.42)
 		)
 		(stroke
@@ -3899,6 +4271,16 @@
 			(type solid)
 		)
 		(uuid "29651976-85fe-45df-9d6a-4d640774cbbc")
+	)
+	(wire
+		(pts
+			(xy 252.73 62.23) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a17bf7d-8d89-45ad-8e8c-b4e6fc62ee0a")
 	)
 	(wire
 		(pts
@@ -3932,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 148.59 81.28)
+			(xy 133.35 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3942,7 +4324,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 140.97 88.9)
+			(xy 53.34 113.03) (xy 63.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa1adc-f036-41ec-82a4-d0b835f311c2")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3992,6 +4384,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 76.2) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367a2b89-3aa3-4942-99dc-cc8eb1adc289")
+	)
+	(wire
+		(pts
 			(xy 60.96 60.96) (xy 31.75 60.96)
 		)
 		(stroke
@@ -3999,6 +4401,26 @@
 			(type solid)
 		)
 		(uuid "37ae508e-6121-46a7-8162-5c727675dd10")
+	)
+	(wire
+		(pts
+			(xy 135.89 113.03) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3890c06f-9a88-4917-bb70-bcfbf96b8260")
+	)
+	(wire
+		(pts
+			(xy 231.14 38.1) (xy 234.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a05860f-22dd-4f80-87e0-a0cf869a5f95")
 	)
 	(wire
 		(pts
@@ -4012,13 +4434,53 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 81.28) (xy 148.59 83.82)
+			(xy 252.73 26.67) (xy 254 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7c7c4b-aa49-4181-b1b9-fa784c837e1d")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e1769e2-4592-4869-85d4-94e332736035")
+	)
+	(wire
+		(pts
+			(xy 104.14 133.35) (xy 106.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b879d7-6288-4eda-9bc6-cdaa42375612")
+	)
+	(wire
+		(pts
+			(xy 220.98 55.88) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fae769-18b1-4957-983e-0b5e6f225821")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44857e93-6bcf-4699-ad02-bc372aeda9e9")
 	)
 	(wire
 		(pts
@@ -4042,6 +4504,36 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 119.38) (xy 64.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d0922f-36ff-4782-a715-5e481988a315")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 135.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e98e1-7b55-459a-bc16-7c16cde995ec")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49986c52-bc58-414a-9e7b-13bf8fffa6e1")
+	)
+	(wire
+		(pts
 			(xy 146.05 49.53) (xy 146.05 54.61)
 		)
 		(stroke
@@ -4049,6 +4541,16 @@
 			(type default)
 		)
 		(uuid "49c8d9a2-837b-4ddf-b02d-8e30d0ad9457")
+	)
+	(wire
+		(pts
+			(xy 125.73 138.43) (xy 125.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5f0f39-2a33-4d54-8228-78eb27136b52")
 	)
 	(wire
 		(pts
@@ -4072,6 +4574,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 139.7) (xy 198.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbaff95-e8fc-4d90-9457-dbd77a6015e3")
+	)
+	(wire
+		(pts
 			(xy 133.35 54.61) (xy 133.35 48.26)
 		)
 		(stroke
@@ -4079,6 +4591,16 @@
 			(type default)
 		)
 		(uuid "4fe4dc79-86da-4a7c-9fc6-f176553ae303")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 53.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c9a008-2829-4722-89ea-2cbec49d1d24")
 	)
 	(wire
 		(pts
@@ -4122,6 +4644,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 97.79) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560ad3de-3181-4d7d-aefe-2bfb86f735fd")
+	)
+	(wire
+		(pts
+			(xy 242.57 27.94) (xy 242.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5744c240-495e-4581-baca-8437e63aa9eb")
+	)
+	(wire
+		(pts
 			(xy 55.88 24.13) (xy 55.88 27.94)
 		)
 		(stroke
@@ -4132,6 +4674,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 121.92) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57eeefb5-c877-4d01-9f8a-876aa16fa064")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e83397b-bf47-494a-a23b-1e8873690ac5")
+	)
+	(wire
+		(pts
 			(xy 30.48 83.82) (xy 34.29 83.82)
 		)
 		(stroke
@@ -4139,6 +4701,26 @@
 			(type default)
 		)
 		(uuid "60aea530-ee90-4dd3-b0ea-9b5854c13f87")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ff698d-45b0-4c54-b4e4-8dad7b5f80f7")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 208.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b3dd15-4d09-4158-9967-272de9294d6e")
 	)
 	(wire
 		(pts
@@ -4159,6 +4741,16 @@
 			(type solid)
 		)
 		(uuid "67559638-167e-4f06-9757-aeeebf7e8930")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685e08d9-bada-4b57-a352-7765973baa28")
 	)
 	(wire
 		(pts
@@ -4192,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 148.59 68.58)
+			(xy 133.35 60.96) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4212,13 +4804,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 129.54 88.9)
+			(xy 53.34 115.57) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7703bad4-8c56-42a8-bbfd-8a017eb7dedc")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77ffd467-d49e-475e-bb62-5a846a3ae718")
+	)
+	(wire
+		(pts
+			(xy 208.28 123.19) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a529823-d7e9-4521-b60e-828576b8b0fe")
 	)
 	(wire
 		(pts
@@ -4242,6 +4854,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d56cb6f-8d67-48c8-b461-93046a59de08")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d76824a-b04b-4fc4-aa76-4a17181145db")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 73.66 43.18)
 		)
 		(stroke
@@ -4249,6 +4881,26 @@
 			(type solid)
 		)
 		(uuid "7dd33798-d6eb-48c4-8355-bbeae3353a44")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81321da1-f005-49ac-870f-dc4ccf01663f")
+	)
+	(wire
+		(pts
+			(xy 31.75 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819c1e47-68c9-4feb-bb50-c7ed56ad0007")
 	)
 	(wire
 		(pts
@@ -4272,6 +4924,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867b16bf-eb81-4b15-a1bd-954d8560adb1")
+	)
+	(wire
+		(pts
 			(xy 93.98 165.1) (xy 93.98 167.64)
 		)
 		(stroke
@@ -4289,6 +4951,26 @@
 			(type default)
 		)
 		(uuid "88317b3b-5d68-45f3-b688-2a923bf5e06c")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88351145-98b8-42d6-80a6-0a8c088d8321")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883e205c-67f7-422e-994c-46cf5055c50a")
 	)
 	(wire
 		(pts
@@ -4312,6 +4994,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 125.73) (xy 125.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afbbe52-c5a0-48b1-98e5-bfcdacf35622")
+	)
+	(wire
+		(pts
+			(xy 113.03 24.13) (xy 118.11 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b071c3c-73cb-4af4-9d64-7d3193f9a398")
+	)
+	(wire
+		(pts
 			(xy 73.66 48.26) (xy 100.33 48.26)
 		)
 		(stroke
@@ -4319,6 +5021,16 @@
 			(type solid)
 		)
 		(uuid "8b129051-97ca-49cd-adf8-4efb5043fabb")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 53.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c47b4f8-0917-40c2-984c-229a1f84fb22")
 	)
 	(wire
 		(pts
@@ -4332,6 +5044,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 30.48) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2da373-0658-4cca-a720-50204af8609f")
+	)
+	(wire
+		(pts
 			(xy 146.05 54.61) (xy 133.35 54.61)
 		)
 		(stroke
@@ -4339,6 +5061,16 @@
 			(type default)
 		)
 		(uuid "8dbc22b0-3a8a-42fa-b8fd-ea52c320b403")
+	)
+	(wire
+		(pts
+			(xy 242.57 30.48) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8ae224-3adb-4758-a9e5-ce3245d032f5")
 	)
 	(wire
 		(pts
@@ -4372,6 +5104,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 114.3) (xy 208.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b1f23d-a50b-42ef-bee8-6f449e5d3ed5")
+	)
+	(wire
+		(pts
 			(xy 128.27 46.99) (xy 128.27 48.26)
 		)
 		(stroke
@@ -4379,6 +5121,26 @@
 			(type default)
 		)
 		(uuid "92f8da5f-e19b-45a5-8f30-b0353500732b")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 242.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93086472-bca7-457b-9547-b6b3d78eec49")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9394b4cd-373a-47cd-961d-f607c0061aec")
 	)
 	(wire
 		(pts
@@ -4422,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 97.79)
+			(xy 133.35 83.82) (xy 133.35 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4432,13 +5194,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 77.47) (xy 158.75 81.28)
+			(xy 142.24 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4c4004-65a9-4280-989b-172111f6a389")
+		(uuid "9e5401cb-5db0-47a6-8964-072d9ba09b86")
 	)
 	(wire
 		(pts
@@ -4482,6 +5244,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 58.42) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae90648c-547e-47d2-87ec-f8f8dc5d86bd")
+	)
+	(wire
+		(pts
+			(xy 252.73 55.88) (xy 252.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6e71ae-2c3f-402a-b0b1-ce8769ed7741")
+	)
+	(wire
+		(pts
 			(xy 31.75 71.12) (xy 60.96 71.12)
 		)
 		(stroke
@@ -4492,13 +5274,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 158.75 74.93)
+			(xy 143.51 58.42) (xy 143.51 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0bfd589-f57b-4c3d-b13f-0027f8365957")
+	)
+	(wire
+		(pts
+			(xy 176.53 134.62) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2710e7f-7dd6-491b-b379-286e7d5c5a24")
 	)
 	(wire
 		(pts
@@ -4512,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 148.59 68.58)
+			(xy 111.76 58.42) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4529,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "b625fd0a-3d1d-48ba-8ec4-89c288dabeeb")
+	)
+	(wire
+		(pts
+			(xy 231.14 76.2) (xy 234.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6990738-f5b8-46b8-863b-016145bc85df")
 	)
 	(wire
 		(pts
@@ -4552,6 +5354,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 120.65) (xy 209.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94d9b79-42a7-4d35-a596-2285a8228c97")
+	)
+	(wire
+		(pts
 			(xy 73.66 73.66) (xy 100.33 73.66)
 		)
 		(stroke
@@ -4559,6 +5371,16 @@
 			(type solid)
 		)
 		(uuid "bc7a73bf-d271-462c-8196-ea5c7867515d")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 64.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf11be56-2da1-4f54-9180-145dccbcd9ca")
 	)
 	(wire
 		(pts
@@ -4572,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08e72b9-ce50-43f7-b6a4-2dc54efc937c")
+	)
+	(wire
+		(pts
 			(xy 76.2 33.02) (xy 73.66 33.02)
 		)
 		(stroke
@@ -4579,6 +5411,16 @@
 			(type solid)
 		)
 		(uuid "c15b519d-5e2e-489c-91b6-d8ff3e8343cb")
+	)
+	(wire
+		(pts
+			(xy 242.57 81.28) (xy 242.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e2c866-a060-49f8-b0d4-4c210fe442d1")
 	)
 	(wire
 		(pts
@@ -4592,13 +5434,113 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 148.59 81.28)
+			(xy 252.73 64.77) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6458030-da28-4d26-912b-c3a203a52819")
+	)
+	(wire
+		(pts
+			(xy 252.73 26.67) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6be358a-90ec-452a-972b-431e9546b805")
+	)
+	(wire
+		(pts
+			(xy 220.98 17.78) (xy 242.57 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d3cda1-5848-47e2-bb6f-9fb85bd876a1")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c6eefe-29af-46ac-b152-85702fe80047")
+	)
+	(wire
+		(pts
+			(xy 133.35 68.58) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb6083c1-0809-4784-9ac4-1306f884cfb6")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 252.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb67ea1a-f4b8-4d7b-9eec-00b445fee90b")
+	)
+	(wire
+		(pts
+			(xy 252.73 17.78) (xy 252.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd690cc3-9bee-49b7-bf0c-1b27562f6841")
+	)
+	(wire
+		(pts
+			(xy 41.91 133.35) (xy 45.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6a4a05-f107-4276-bdce-c7a5733ff5c5")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d038ea19-57bf-44ca-bc47-41fe331a5b1b")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10d101f-69e4-45b4-b90e-047bdc5c484c")
+	)
+	(wire
+		(pts
+			(xy 53.34 138.43) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d397c18c-d469-479c-b672-9039e7c7a908")
 	)
 	(wire
 		(pts
@@ -4662,6 +5604,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 133.35) (xy 34.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab5818d-c052-44ea-80b3-45959c5d51df")
+	)
+	(wire
+		(pts
 			(xy 76.2 68.58) (xy 76.2 80.01)
 		)
 		(stroke
@@ -4669,6 +5621,16 @@
 			(type solid)
 		)
 		(uuid "ddb5ec2a-613c-4ee5-b250-77656b088e84")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 224.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def04ddd-f531-483d-a767-cdc25701113a")
 	)
 	(wire
 		(pts
@@ -4689,6 +5651,76 @@
 			(type solid)
 		)
 		(uuid "df3b4a97-babc-4be9-b107-e59b56293dde")
+	)
+	(wire
+		(pts
+			(xy 198.12 124.46) (xy 198.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0767ab1-46df-4e5f-a179-50780864ab8c")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0847c18-62ec-4b44-b68e-8d74c434f43f")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 223.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bfac70-f93e-4344-bd3d-3e536c879501")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 36.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30a4bc0-7a72-49d7-b196-c822e16fc51e")
+	)
+	(wire
+		(pts
+			(xy 220.98 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3261113-be02-4123-ad97-7ed74d4ab83e")
+	)
+	(wire
+		(pts
+			(xy 242.57 20.32) (xy 242.57 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b300b1-c324-4855-b042-24c3c6f79875")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6318008-2980-49b9-a712-9168e004f068")
 	)
 	(wire
 		(pts
@@ -4722,6 +5754,46 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 102.87) (xy 36.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12d1787-6aee-49ab-9648-d05c5ccfd152")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dd4e62-9690-41fa-bb32-0eae398b7ba7")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e28fe8-e3da-4b9e-9d82-59441827075e")
+	)
+	(wire
+		(pts
+			(xy 208.28 123.19) (xy 208.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d5b8bb-babe-4c99-b473-8a16df426ca0")
+	)
+	(wire
+		(pts
 			(xy 127 44.45) (xy 133.35 44.45)
 		)
 		(stroke
@@ -4742,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 158.75 68.58)
+			(xy 133.35 58.42) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4762,13 +5834,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 74.93) (xy 163.83 74.93)
+			(xy 252.73 64.77) (xy 252.73 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb56bdc2-aca4-42ee-a1c8-7ea7c45dffbc")
+		(uuid "fd24e97b-1e57-4d9d-8b7f-38e75f3b3818")
 	)
 	(wire
 		(pts
@@ -4779,6 +5851,36 @@
 			(type default)
 		)
 		(uuid "fe446908-0aa3-4965-a054-28dc25cb53bd")
+	)
+	(wire
+		(pts
+			(xy 242.57 17.78) (xy 252.73 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5ac641-7df8-4ea1-a8b2-4f7045922ace")
+	)
+	(label "PWR"
+		(at 220.98 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "014441f4-5dda-4418-83f1-590c6e747909")
+	)
+	(label "GND"
+		(at 113.03 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0290167f-1160-401f-945c-21dca3469433")
 	)
 	(label "ID_SDA"
 		(at 31.75 60.96 0)
@@ -4811,7 +5913,7 @@
 		(uuid "0c09e8d6-95c2-4b77-95d1-18d179c3eee5")
 	)
 	(label "GND"
-		(at 148.59 97.79 0)
+		(at 133.35 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4819,6 +5921,16 @@
 			(justify left bottom)
 		)
 		(uuid "12f46766-4e8b-4646-b8ab-648cf924e60f")
+	)
+	(label "GPIO6"
+		(at 220.98 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a01d41d-58f5-4fa3-b0c8-83e83f5a0f57")
 	)
 	(label "ID_SDA"
 		(at 110.49 175.26 180)
@@ -4830,8 +5942,18 @@
 		)
 		(uuid "1a04dd3c-a998-471b-a6ad-d738b9730bca")
 	)
-	(label "GPIO26"
-		(at 127 88.9 180)
+	(label "PWR"
+		(at 220.98 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e010758-16d1-45ab-ab9a-314c577ed922")
+	)
+	(label "GPIO17"
+		(at 111.76 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4890,6 +6012,16 @@
 		)
 		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
 	)
+	(label "PWR"
+		(at 113.03 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "380baccd-bd2e-473d-aef7-11eaeec73d72")
+	)
 	(label "GPIO9{slash}SPI0.MISO"
 		(at 31.75 53.34 0)
 		(effects
@@ -4911,7 +6043,7 @@
 		(uuid "3cdba379-8ce3-4bce-9cb8-497094dbcd05")
 	)
 	(label "PWR"
-		(at 127 68.58 180)
+		(at 111.76 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4919,6 +6051,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d79f102-5548-4c51-ba4a-db21773bb1f6")
+	)
+	(label "GND"
+		(at 242.57 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fa1b537-f9d2-4476-9ebf-022a138f249b")
 	)
 	(label "GPIO23"
 		(at 100.33 45.72 180)
@@ -4940,6 +6082,26 @@
 		)
 		(uuid "5069ddbc-357e-4355-aaa5-a8f551963b7a")
 	)
+	(label "PWR"
+		(at 176.53 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52ece194-e67a-42dd-bdcd-bc13b9faf331")
+	)
+	(label "PWR"
+		(at 104.14 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57bbf7c8-ab14-4037-b308-2c7ec4e72ac4")
+	)
 	(label "GPIO27"
 		(at 31.75 43.18 0)
 		(effects
@@ -4949,6 +6111,26 @@
 			(justify left bottom)
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
+	)
+	(label "GND"
+		(at 198.12 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d82c91b-9a9a-494a-94a3-49f496318e71")
+	)
+	(label "GND"
+		(at 53.34 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e89035a-1f23-41df-94e3-44a3db5445ce")
 	)
 	(label "GPIO26"
 		(at 31.75 73.66 0)
@@ -5010,6 +6192,36 @@
 		)
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
 	)
+	(label "GPIO19{slash}PCM.FS"
+		(at 36.83 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ac2a132-de3e-412f-b909-df5c4b7dfe65")
+	)
+	(label "GPIO23"
+		(at 102.87 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d5011a9-52a1-4d66-8eca-83c356a40f7f")
+	)
+	(label "GPIO22"
+		(at 102.87 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8068d25d-d811-4a29-adb7-42fc2f87acc9")
+	)
 	(label "GPIO22"
 		(at 31.75 45.72 0)
 		(effects
@@ -5050,6 +6262,16 @@
 		)
 		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
 	)
+	(label "PWR"
+		(at 31.75 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98b0b187-4654-4a78-9a43-e53524f59534")
+	)
 	(label "GPIO25"
 		(at 100.33 53.34 180)
 		(effects
@@ -5060,6 +6282,16 @@
 		)
 		(uuid "9d507609-a820-4ac3-9e87-451a1c0e6633")
 	)
+	(label "GPIO24"
+		(at 142.24 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ee571eb-84e9-4e32-a357-7ba71ef14fdf")
+	)
 	(label "GPIO3{slash}SCL1"
 		(at 31.75 33.02 0)
 		(effects
@@ -5069,6 +6301,16 @@
 			(justify left bottom)
 		)
 		(uuid "a1cb0f9a-5b27-4e0e-bc79-c6e0ff4c58f7")
+	)
+	(label "GPIO5"
+		(at 220.98 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a22172df-8719-4bb7-81c1-dd22c08b66cd")
 	)
 	(label "GPIO18{slash}PCM.CLK"
 		(at 100.33 40.64 180)
@@ -5089,6 +6331,16 @@
 			(justify right bottom)
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
+	)
+	(label "GPIO25"
+		(at 142.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa21028c-7af0-41c8-a615-d35675812173")
 	)
 	(label "GPIO13{slash}PWM1"
 		(at 31.75 68.58 0)
@@ -5120,6 +6372,16 @@
 		)
 		(uuid "b8e48041-ff05-4814-a4a3-fb04f84542aa")
 	)
+	(label "GND"
+		(at 242.57 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba3f0096-8553-4ce2-aef9-e4942f515f46")
+	)
 	(label "GPIO7{slash}SPI0.CE1"
 		(at 100.33 58.42 180)
 		(effects
@@ -5130,6 +6392,26 @@
 		)
 		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
 	)
+	(label "GPIO21{slash}PCM.DOUT"
+		(at 36.83 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bef45b63-3900-43ab-8c5f-a8ef28034d99")
+	)
+	(label "GPIO20{slash}PCM.DIN"
+		(at 36.83 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d850812b-7427-4ee2-acdf-72f771f76c63")
+	)
 	(label "ID_SCL"
 		(at 110.49 177.8 180)
 		(effects
@@ -5139,6 +6421,56 @@
 			(justify right bottom)
 		)
 		(uuid "dd6c1ab1-463a-460b-93e3-6e17d4c06611")
+	)
+	(label "GPIO26"
+		(at 104.14 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dea0b983-7aec-402e-bd36-4d6e49829df7")
+	)
+	(label "GPIO27"
+		(at 31.75 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e96e44e2-3bf6-4665-8e96-5c6714fbb596")
+	)
+	(label "GPIO16"
+		(at 176.53 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2a51c0b-e8bc-4bb2-a6c0-f07982332505")
+	)
+	(label "GPIO10{slash}SPI0.MOSI"
+		(at 181.61 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5256b8f-479f-4039-bfe5-0c661133a594")
+	)
+	(label "GND"
+		(at 125.73 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f92087c1-f199-4b12-b0a4-b283c74b0346")
 	)
 	(label "GPIO11{slash}SPI0.SCLK"
 		(at 31.75 55.88 0)
@@ -5644,6 +6976,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4001")
+		(at 198.12 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ee28e5-3931-4e26-bff3-887b07e13ac0")
+		(property "Reference" "D4"
+			(at 200.66 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 200.66 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ee35a37-d17f-487a-ae10-881073450fbe")
+		)
+		(pin "1"
+			(uuid "f332bca8-510b-45d1-8ab0-ee58aa25f5dc")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 67.31 177.8 0)
 		(unit 1)
@@ -5725,6 +7161,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 191.77 96.52 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11f3b133-d8ed-44c5-b263-337f424d5b87")
+		(property "Reference" "J14"
+			(at 194.31 96.5201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 194.31 93.9801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd41f4b1-a47e-4428-ad53-3c160ae90ddc")
+		)
+		(pin "2"
+			(uuid "3f1e6313-7e34-4c96-9579-2856555eb7eb")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 152.4 95.25 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17972334-b38d-4335-830e-518a94f80c0d")
+		(property "Reference" "J12"
+			(at 154.94 95.2501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 154.94 92.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 152.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2b95eb9-75b8-4524-b1ef-255cb943e55c")
+		)
+		(pin "2"
+			(uuid "52f8d79b-d59a-4d0c-8eee-30724a923f87")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 93.98 170.18 0)
 		(unit 1)
@@ -5800,6 +7400,192 @@
 			(project "epilepsyAndBehaviorHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 242.57 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dee8cfe-d535-4a16-92d7-05df70a0920b")
+		(property "Reference" "D6"
+			(at 245.11 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 245.11 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5e09ab8-c8d0-4e3d-89ee-cfee54614144")
+		)
+		(pin "1"
+			(uuid "0d814e5e-d8a3-453f-9d68-21ffd3100f11")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 114.3 95.25 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fd6f194-55bb-4b98-b72f-6d04d9511105")
+		(property "Reference" "J11"
+			(at 116.84 95.2501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 116.84 92.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 114.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84579f75-9a4b-459c-ba55-fc4f2171d7e6")
+		)
+		(pin "2"
+			(uuid "e552a668-1ae8-4e84-b4fa-197804907ff6")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5889,6 +7675,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 142.24 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33b84adb-1a29-4786-baaf-375ad9cba98e")
+		(property "Reference" "J6"
+			(at 144.78 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 144.78 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 142.24 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43dfb79c-734e-4636-a6c3-eefec337bfc9")
+		)
+		(pin "2"
+			(uuid "3eb7dad0-6e07-4073-87a6-d3f680ff10c6")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 231.14 96.52 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e990651-0655-40f1-88dd-ec2e6aea8717")
+		(property "Reference" "J15"
+			(at 233.68 96.5201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 233.68 93.9801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 231.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d70864ef-84b9-4d8d-a0c9-4043e536b006")
+		)
+		(pin "2"
+			(uuid "619ed683-8ac1-487f-ba52-20e283743ab6")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 96.52 180.34 0)
 		(unit 1)
@@ -5969,8 +7918,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 229.87 106.68 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49af99b6-317e-4566-9fe4-5e4b824db542")
+		(property "Reference" "J16"
+			(at 232.41 106.6801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 232.41 104.1401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 229.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbc0ec3c-67ee-49ff-a3e3-8dd6401d4ff5")
+		)
+		(pin "2"
+			(uuid "5ab19696-ed7d-4320-aacc-83ccc5dae72f")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4001")
-		(at 148.59 74.93 270)
+		(at 133.35 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5981,7 +8012,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d15f2f4-9590-412d-b556-f924eaa53c73")
 		(property "Reference" "D1"
-			(at 151.13 73.6599 90)
+			(at 135.89 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +8023,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 151.13 76.1999 90)
+			(at 135.89 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6003,7 +8034,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 148.59 74.93 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +8045,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 148.59 74.93 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +8056,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 148.59 74.93 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +8067,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 74.93 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +8078,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 74.93 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +8186,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 168.91 74.93 0)
+		(at 149.86 67.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6163,10 +8195,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53ce9303-1b69-40aa-8c26-f64761f5ab40")
 		(property "Reference" "J3"
-			(at 171.45 74.9299 0)
+			(at 152.4 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6177,7 +8208,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 171.45 77.4699 0)
+			(at 152.4 64.7701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6188,7 +8219,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 168.91 74.93 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,7 +8230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 74.93 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6210,7 +8241,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 74.93 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +8377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D10.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 			(at 145.0848 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6395,8 +8426,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 259.08 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59b7e353-9702-4b9f-8da2-d233163f78f9")
+		(property "Reference" "J9"
+			(at 261.62 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 261.62 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df139d4c-9852-4f77-9002-e0a3df3b5b19")
+		)
+		(pin "2"
+			(uuid "6f2a158b-3b0c-4ffa-a852-27388da4dd92")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bc93247-8f46-4f0a-b2a3-aef826d17c58")
+		(property "Reference" "R6"
+			(at 182.88 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 182.88 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 182.626 135.636 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "81ba31e1-07e1-40ab-bb9b-231f329d4755")
+		)
+		(pin "1"
+			(uuid "56736635-83a4-4d1c-90ec-e7be98bab545")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:PN2222A")
-		(at 146.05 88.9 0)
+		(at 130.81 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6407,7 +8599,7 @@
 		(fields_autoplaced yes)
 		(uuid "605146ac-4357-4fa8-b034-594f9bfed9c4")
 		(property "Reference" "Q1"
-			(at 151.13 87.6299 0)
+			(at 135.89 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6418,7 +8610,7 @@
 			)
 		)
 		(property "Value" "PN2222A"
-			(at 151.13 90.1699 0)
+			(at 135.89 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6429,7 +8621,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 151.13 90.805 0)
+			(at 135.89 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +8634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
-			(at 146.05 88.9 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,7 +8646,7 @@
 			)
 		)
 		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
-			(at 146.05 88.9 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +8657,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 146.05 88.9 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +8668,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 146.05 88.9 0)
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6499,6 +8691,116 @@
 			(project "epilepsyAndBehaviorHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:PN2222A")
+		(at 240.03 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64c10de1-2d54-48cd-8bfa-1019c82b08cf")
+		(property "Reference" "Q6"
+			(at 245.11 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN2222A"
+			(at 245.11 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 245.11 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f9b741b-16e0-4155-8a0a-80eb6d55dcff")
+		)
+		(pin "2"
+			(uuid "8141bff5-1727-4b8f-928b-8e512140da57")
+		)
+		(pin "3"
+			(uuid "ebc4d21a-330e-4813-be99-3fd57408f4b9")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6602,8 +8904,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 88.9 90)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 123.19 26.67 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6611,30 +8914,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afc04ada-ec12-4ff2-b4be-8ea578649768")
-		(property "Reference" "R3"
-			(at 133.35 82.55 90)
+		(uuid "7ea097b9-e4c3-4a88-81f9-5a5d11265b50")
+		(property "Reference" "J10"
+			(at 125.73 26.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "220-330"
-			(at 133.35 85.09 90)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 125.73 24.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.604 87.884 90)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +8949,388 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 88.9 0)
+			(at 123.19 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39cfc2da-7c34-40f1-8fb6-e63f8ea64df4")
+		)
+		(pin "2"
+			(uuid "4b10f817-5c9e-472b-a316-2ab42c998f51")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:PN2222A")
+		(at 240.03 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efe82c3-3685-4a0e-853c-7026590cd1f0")
+		(property "Reference" "Q5"
+			(at 245.11 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN2222A"
+			(at 245.11 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 245.11 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(at 240.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 240.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 240.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 240.03 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "296dc29c-14c3-4921-8aaf-fe2c4fcd4c85")
+		)
+		(pin "2"
+			(uuid "a3b57b9c-a4a6-48a0-b75e-ff18b7fefc3f")
+		)
+		(pin "3"
+			(uuid "fb17ea45-94e7-4fdb-9154-d27779b43309")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:PN2222A")
+		(at 123.19 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f3520ec-94d3-4606-ae6a-d4cde257251d")
+		(property "Reference" "Q3"
+			(at 128.27 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN2222A"
+			(at 128.27 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 128.27 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e35da0bf-4890-4e25-bd2e-63e106780059")
+		)
+		(pin "2"
+			(uuid "170a3254-0d4b-46e8-86fb-125027a82f5b")
+		)
+		(pin "3"
+			(uuid "cc0922b0-dc63-4be6-9635-b95c1404ffba")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 214.63 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86d0aa2c-1957-495c-a2cd-d2e3757f6da8")
+		(property "Reference" "J7"
+			(at 217.17 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 217.17 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4907aa3a-00ea-49d5-8af1-ecc90fb97198")
+		)
+		(pin "2"
+			(uuid "77562efc-d113-4d29-a806-129d177ac441")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 110.49 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "886c6c15-32c9-43dd-8aec-305e3da5effc")
+		(property "Reference" "R5"
+			(at 110.49 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 110.49 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 110.236 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +9341,279 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 88.9 0)
+			(at 110.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5844eb13-9550-428d-aac8-d2af92f23758")
+		)
+		(pin "1"
+			(uuid "65075a10-a39f-4aed-b5c5-a4a935b2eb1d")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:PN2222A")
+		(at 50.8 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9acca562-76dc-4580-9e5a-8b5218889ea3")
+		(property "Reference" "Q2"
+			(at 55.88 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN2222A"
+			(at 55.88 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 55.88 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ac36ac-eff1-4d14-bbab-e8becf096d01")
+		)
+		(pin "2"
+			(uuid "a8cc0fed-dee1-42ca-a43d-c0336c3d6d47")
+		)
+		(pin "3"
+			(uuid "44c1e4b5-3e1f-4d96-b404-56c35cbc2c3e")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 69.85 121.92 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac0195a6-245f-40b5-b412-8688011a0e03")
+		(property "Reference" "J5"
+			(at 72.39 121.9201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 72.39 119.3801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7932334-e3b9-4d25-85c4-92ad96e33c1a")
+		)
+		(pin "2"
+			(uuid "6fe7e90a-cd0c-4002-a171-f1c267ae3ae2")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 118.11 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc04ada-ec12-4ff2-b4be-8ea578649768")
+		(property "Reference" "R3"
+			(at 118.11 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 118.11 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 117.856 79.756 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,6 +9719,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4001")
+		(at 242.57 24.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1332e86-75a5-483e-b81e-751413f5e9d4")
+		(property "Reference" "D5"
+			(at 245.11 22.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 245.11 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd667cfe-77e6-43b6-a7b8-852e21a8ca00")
+		)
+		(pin "1"
+			(uuid "6620c33c-39c8-4513-91c3-174946cfa01e")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 190.5 0)
 		(unit 1)
@@ -6831,6 +9892,270 @@
 			(project "epilepsyAndBehaviorHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 227.33 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdaeb53c-28e2-4f5a-ad89-d0a924e60a98")
+		(property "Reference" "R7"
+			(at 227.33 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 227.33 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 227.076 39.116 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 227.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ccdd3f7-aac3-4555-857b-ce8c041b1965")
+		)
+		(pin "1"
+			(uuid "425ee202-67d1-4a40-9591-ba5dbda55ade")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 53.34 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde9a133-8a02-4b79-b278-06f6b9bb7dd1")
+		(property "Reference" "D2"
+			(at 55.88 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 55.88 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "265be27e-d159-4d48-b740-fca1407bfad3")
+		)
+		(pin "1"
+			(uuid "e77019d5-7771-4846-9cfc-d5be2e1a164b")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce9c0b47-80d7-436c-be94-08dd561399f9")
+		(property "Reference" "R4"
+			(at 38.1 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 38.1 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 37.846 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6945608e-e0de-4549-b822-4744c3d0797d")
+		)
+		(pin "1"
+			(uuid "ef1a3dce-e40f-45f7-9a33-6aa3554a2612")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6909,6 +10234,464 @@
 			(project "epilepsyAndBehaviorHat"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 125.73 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae39da0-8431-4b85-aa86-2ed55d49af2e")
+		(property "Reference" "D3"
+			(at 128.27 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 128.27 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "36b6494d-807e-404d-9a41-a4c2bcd78e99")
+		)
+		(pin "1"
+			(uuid "04df5dc0-50ef-4d40-8c22-731546870522")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:PN2222A")
+		(at 195.58 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f22b32c0-dd5f-48bd-b55b-3b1414d58f70")
+		(property "Reference" "Q4"
+			(at 200.66 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN2222A"
+			(at 200.66 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 200.66 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddceacc9-8928-4e0b-abbb-7af65be4f109")
+		)
+		(pin "2"
+			(uuid "5e4d567c-a641-4ed5-8b2d-999a3406458e")
+		)
+		(pin "3"
+			(uuid "b6e30a3b-ac4c-4630-b99c-066c4cd9b5b9")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 227.33 76.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f377626b-f19f-45e5-8a2d-3cd1e291d1fc")
+		(property "Reference" "R8"
+			(at 227.33 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220-330"
+			(at 227.33 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 227.076 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 227.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff713ee1-8a15-4ab3-a1f0-6df5f8ea00e6")
+		)
+		(pin "1"
+			(uuid "bcb18e14-69fa-467e-92f6-807b136a9968")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 26.67 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8bbb8b-0422-4c77-8325-a9b3f1de2847")
+		(property "Reference" "J13"
+			(at 27.305 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 27.305 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "627afe8c-fd9f-41c3-8c70-5eb27c37ef37")
+		)
+		(pin "1"
+			(uuid "487da3fc-22c4-4414-8757-ab4868257381")
+		)
+		(pin "2"
+			(uuid "2b9122fe-8c99-4fdc-aa55-1770b68fb41f")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 259.08 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fea9bd58-de6e-4619-b230-d84153ec38c7")
+		(property "Reference" "J8"
+			(at 261.62 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 261.62 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 259.08 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6808ff2e-4b4e-4c4c-8179-e276218e3242")
+		)
+		(pin "2"
+			(uuid "ce326a62-1073-4ce5-9aaf-e011a88eccde")
+		)
+		(instances
+			(project "epilepsyAndBehaviorHat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J8")
 					(unit 1)
 				)
 			)

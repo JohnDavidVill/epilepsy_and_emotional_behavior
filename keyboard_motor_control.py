@@ -11,6 +11,7 @@ GPIO.setmode(GPIO.BCM)
 # Broadcom system on a Chip Channel, refer to docs about which pin is pin 26
 GPIO.setup(26, GPIO.OUT)
 GPIO.setup(6, GPIO.OUT)
+GPIO.setup(16, GPIO.OUT)
 
 # Setup keyboard to be used
 dev = InputDevice('/dev/input/by-id/usb-SONiX_AMAZON_MD005_Wired_Keyboard-event-kbd')
@@ -20,6 +21,7 @@ print(dev)
 # Instantiate all motor pins to control them easier later in the program
 pin26 = 0
 pin6 = 0
+pin16 = 0
 
 # Use keys to control motors
 while(True):
@@ -36,8 +38,10 @@ while(True):
                     print("Escape Key, turning off all motors")
                     pin26 = 0
                     pin6 = 0
+                    pin16 = 0
                     GPIO.output(26, pin26)
                     GPIO.output(6, pin6)
+                    GPIO.output(16, pin16)
                 elif key == 'KEY_A':
                     # Turn Pin 26 on/off
                     pin26 = 1 - pin26
@@ -48,4 +52,9 @@ while(True):
                     pin6 = 1 - pin6
                     print(f"Key S, Changing pin 6 to {pin6}")
                     GPIO.output(6, pin6)
+                elif key == 'KEY_D':
+                    # Turn Pin 16 on/off
+                    pin16 = 1 - pin16
+                    print(f"Key D, Changing pin 16 to {pin16}")
+                    GPIO.output(16, pin16)
 

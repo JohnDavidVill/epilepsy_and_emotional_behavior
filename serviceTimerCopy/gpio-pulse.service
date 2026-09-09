@@ -1,0 +1,8 @@
+[Unit]
+Description=Pulse gpio for motor control
+After=networwk-online.target time-sync.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/epilepsy_emotion/Documents/programs/epilepsy_emotion/fireAtTime.py
